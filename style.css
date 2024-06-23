@@ -1,0 +1,264 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+   background-color: rgb(249, 236, 236);
+   padding: 30px 120px 0;
+   font-family: "Open Sans", sans-serif;
+}
+
+/* nav sec start */
+.secend{
+    display: flex;
+    justify-content: space-between;
+}
+.secend ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.secend h1{
+    font-size: 35px;
+}
+.secend li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:black
+}
+/* nav sec end */
+
+/* flower sec start */
+.flower-sec{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.flower-sec p{
+padding-bottom: 20px;
+
+}
+.border-gredent{
+    padding-bottom: 20px;
+    font-size: 65px;
+}
+button{
+    background-color:#E55473;
+    border:none;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+    border-radius:5px;
+        
+}
+/* flower sec end */
+
+/* main sec start */
+.About{
+    margin-top:170px;    
+}
+.main-secd{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-sec{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main-div {
+    display:flex;
+   align-items: center;
+   justify-content:center;
+    
+}
+.main-div h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.main-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    
+}
+.main-div-2{
+    margin: 5px;
+ }
+ .photo-main{
+    width: 310px;
+    height: 428px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+
+.flower-tree{
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+
+/* main sec end */
+
+/* d sec start  */
+.d-sec{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 120px;
+}
+.main-d-sec{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    padding-top:88px;
+    padding-bottom:88px;
+
+}
+
+.delivery-icon {
+    margin-left: 90px;
+    margin-bottom: 22px;
+    width: 88px;
+    height: 88px;
+}
+.delivery-paragraph{
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+margin-left: 90px;
+}
+/* d sec end */
+
+
+/* 25% off sec start */
+.off-sec{
+    display: flex;
+    width: 1580px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 120px 0;
+    justify-content: center;
+    align-items: center;
+}
+.div-text{
+    margin-top:130px;
+    margin-left:120px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+.discount-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 0px;
+    margin-left: 140px;
+    margin-top: 25px;
+}
+span{
+    color:#E55473;
+}
+.btn{
+    background-color:#E55473;
+    border:none;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+    border-radius:5px;
+    margin-left:360px;
+    margin-top:40px;
+}
+/* 25% off sec end */
+/* instaragm sec start */
+.img-style{
+    display:flex;
+    margin:50px 120px 125px;
+
+}
+
+.img-title{
+    margin-right: 20px;
+}
+
+/* instaragm sec End */
+
+
+.card-sec{
+    text-align: center;
+    background-image: url(./Rectangle\ 9.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+.Fname{
+    border-radius: 8px;
+    background: #FFF;
+    margin-right:15px;
+    padding: 22px 500px 22px 22px;
+}
+
+.btn-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.btn-sec{
+    padding-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* card section end */
+/* footer setion start */
+footer{
+    background: #000;
+}
+
+.foot-title{
+    color:#FFF;
+    text-align :center;
+    font-size:45px;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+.foot-style{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.foot-end{
+    color:rgba(255, 255, 255, 0.6);
+    text-align:center;
+    padding-bottom: 50px;
+}
+/* footer setion end */
